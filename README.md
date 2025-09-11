@@ -1,1 +1,1 @@
-(https://github.com/Archys34/posmotri-v-okno-fd/
+https://github.com/Archys34/posmotri-v-okno-fd/
