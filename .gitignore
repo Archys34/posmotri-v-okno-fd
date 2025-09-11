@@ -9,4 +9,5 @@ yarn-error.log*
 # ОС/IDE файлы
 .DS_Store
 .idea/
-.vscode/
+.vscode/cd posmotri-v-okno-fd-main
+git reflog --date=local -n 50

@@ -12,11 +12,11 @@
   </head>
   <body class="page">
     <main class="content">
-      <section class="result">
+      <section class="result" >
         <div class="result__video-container">
-          <video src="" controls class="result__video" poster=""></video>
+          <video src="" controls class="result__video" poster="" aria-labelledby="результат видео"></video>
         </div>
-        <form class="search-form">
+        <form class="search-form" aria-labelledby="Строка поиска">
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
@@ -26,11 +26,12 @@
                 placeholder="Санкт Петербург, например"
                 name="city"
                 class="search-form__textfield"
+                aria-label="Введите город"
               />
             </label>
           </fieldset>
           <fieldset class="search-form__fieldset">
-            <h2 class="search-form__fieldset-title">Время суток</h2>
+            <h2 class="search-form__fieldset-title" aria-description="Выбрать конкретное время суток, далле три варианта - Утро День и Ночь">Время суток</h2>
             <div class="search-form__checkbox-list">
               <label class="search-form__label">
                 <input
@@ -40,7 +41,7 @@
                   class="search-form__checkbox visually-hidden"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
-                <span class="search-form__label-text">Утро</span>
+                <span class="search-form__label-text" aria-description="Выбрать время суток - утро">Утро</span>
               </label>
               <label class="search-form__label">
                 <input
@@ -50,7 +51,7 @@
                   class="search-form__checkbox visually-hidden"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
-                <span class="search-form__label-text">День</span>
+                <span class="search-form__label-text" aria-description="Выбрать время суток - день">День</span>
               </label>
               <label class="search-form__label">
                 <input
@@ -60,21 +61,21 @@
                   class="search-form__checkbox visually-hidden"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
-                <span class="search-form__label-text">Ночь</span>
+                <span class="search-form__label-text" aria-description="Выбрать время суток - ночь">Ночь</span>
               </label>
             </div>
           </fieldset>
-          <button type="submit" class="button search-form__submit-button">
+          <button type="submit" class="button search-form__submit-button" aria-description="Кнопка начать поиск">
             Найти
           </button>
         </form>
       </section>
       <section class="content__details">
         <h1 class="title">
-          <span class="content__accent">По-</span><br />смотри<br />в окно
+          <span class="content__accent" aria-description="Название Посмотри в окно">По-</span><br />смотри<br />в окно
         </h1>
         <div class="content__list-container">
-          <ul class="content__list">
+          <ul class="content__list" aria-description="Другие видео список">
             <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
           </ul>
         </div>
