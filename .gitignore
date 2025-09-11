@@ -1,0 +1,12 @@
+# Игнорируем папку с зависимостями
+node_modules/
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ОС/IDE файлы
+.DS_Store
+.idea/
+.vscode/
