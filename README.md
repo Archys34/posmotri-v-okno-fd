@@ -1,1 +1,1 @@
-Провект "Посмотри в окно"
+(https://github.com/Archys34/posmotri-v-okno-fd/
